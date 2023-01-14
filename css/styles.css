@@ -1,0 +1,234 @@
+:root {
+    --primari-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --accent-focus-color: #404BBF;
+    --text-white-color: #FFFFFF;
+    --light-mode-color: #F4F4FD;
+    --accent-cornflower-color:#E7E9FC;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+/* header  */
+.page-header {
+    background-color: var(--text-white-color);
+}
+.page-header .logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-web {
+    color: var(--accent-color);
+}
+.logo-studio {
+    color: var(--title-text-color);
+} 
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+
+/* site-nav */
+.site-nav .link {
+    font-family:  'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-focus-color);
+}
+
+/* contacts */
+.contacts .link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primari-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-focus-color);
+    
+}
+
+/* main-section */
+/* hero */
+.hero {
+    background-color: var(--title-text-color);
+}
+.hero-title { 
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color:var(--text-white-color);
+}
+.btn-color {
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--text-white-color);
+    background: var(--accent-color);
+}
+.btn-color:hover,
+.btn-color:focus {
+    color:var(--text-white-color);
+    background: var(--accent-focus-color);
+}
+
+
+ /* section */
+/* uor-features */
+.uor-features .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+} 
+.uor-features .text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primari-text-color);
+}
+
+/* section */
+/* What are we doing */
+.section-title { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+
+/* our-team */
+.team {
+background: var(--light-mode-color);
+}
+.team-photo {
+    background: var(--text-white-color);
+}
+.section-team { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+
+}
+
+.title-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.job-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primari-text-color);
+}
+
+/* portfolio-site */   
+
+/* Section with buttons */
+.button-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-cornflower-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button-title:hover,
+.button-title:focus {
+    color: var(--text-white-color);
+    background: var(--accent-focus-color);
+}
+/* portfolio-site */  
+
+.portfolio-site .title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.83;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.portfolio-site .services{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primari-text-color);
+}
+
+/* page-footer */
+.page-footer {
+    background-color: var(--title-text-color);
+}
+.logo-web {
+    color: var(--accent-color);
+    font-size: 18px;
+}
+.color-studio {
+    color: var(--light-mode-color);
+    font-size: 18px;
+}
+.footer-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-cornflower-color);
+}
+
+
+
+
