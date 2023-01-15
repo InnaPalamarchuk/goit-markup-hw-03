@@ -8,9 +8,45 @@
     --accent-cornflower-color:#E7E9FC;
 }
 
+
+
+
 body {
     font-family: 'Roboto';
 }
+.container { 
+    max-width:  1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button{
+cursor: pointer;
+}
+
+
+
+
 
 /* header  */
 .page-header {
@@ -37,9 +73,7 @@ body {
     text-decoration: none;
 }
 
-.list {
-    list-style: none;
-}
+
 
 
 /* site-nav */
@@ -72,6 +106,9 @@ body {
     color: var(--accent-focus-color);
     
 }
+
+
+
 
 /* main-section */
 /* hero */
