@@ -224,15 +224,18 @@ cursor: pointer;
 /* What are we doing */
 
 .work-title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .photo-applications {
     padding-top: 0px;
-    padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
+}
+
+.photo-section{
+    padding-bottom: 120px;
 }
 
 .photo-list {
@@ -254,7 +257,8 @@ cursor: pointer;
 /* our-team */
 
 .our-employees{
-    padding-bottom: 72px ;
+    padding-top: 120px;
+    margin-bottom: 72px ;
 }
 .our-team {
     display: flex;
@@ -265,9 +269,11 @@ cursor: pointer;
     flex-basis: calc((100% - 3 * 24px) /4);
 }
 
+
 .container-team{
-    padding: 120px 156px;
+    padding-bottom: 120px;
 }
+
 
 .card-description{
     padding: 32px 16px;
@@ -292,7 +298,10 @@ background: var(--light-mode-color);
 
 }
 
+
+
 .title-name {
+    margin-bottom: 8px;
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
@@ -315,21 +324,25 @@ background: var(--light-mode-color);
 
 /* portfolio-site */   
 
+.section-portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px ;
+}
+
 /* Section with buttons */
 
 .button-section{
-    padding-top: 96px;
-    padding-bottom: 72px;
     display: flex;
     justify-content: center;
-    padding-right: 24px;
+    gap: 24px;
+    margin-bottom: 72px;
 }
-.button{
-padding-right: 24px;
-}
+
+
 .button-text{
 padding: 12px 24px;
 background-color: var(--light-mode-color);
+border: 1px solid;
 }
 
 .button-title {
@@ -353,15 +366,14 @@ background-color: var(--light-mode-color);
 .portfolio-site{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 120px;
+    column-gap: 24px;
+    row-gap: 48px;
+    
 }
 .card-list{
-    width: 360px;
-    margin-top: 24px;
-    margin-bottom: 48px;
-    margin-right: 24px;
-    border: 1px solid #E7E9FC;
+    flex-basis: calc((100% - 2 * 24px) / 3);
 }
+
 .card-list:nth-child(3n){
     margin-right: 0;
 }
@@ -370,10 +382,11 @@ background-color: var(--light-mode-color);
 }
 
 .tapes-of-services{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: auto;
+    padding: 32px 16px;
+    border: 1px solid;
+    border-top: none;
+    border: 1px solid #E7E9FC;
+
 }
 
 .title{
@@ -399,29 +412,43 @@ background-color: var(--light-mode-color);
 
 /* page-footer */
 
+.page-footer .logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .conteiner-footer{
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left:156px ;
-    padding-right: auto;
 }
 
 .footer-text{
     max-width: 264px;
-    padding-top:  16px;
 }
 
 .page-footer {
     background-color: var(--title-text-color);
-}
-.logo-web {
-    color: var(--accent-color);
     font-size: 18px;
 }
+.logo-footer {
+    color: var(--accent-color);
+    margin-bottom: 16px;
+}
+
 .color-studio {
     color: var(--light-mode-color);
     font-size: 18px;
+    margin-bottom: 16px;
 }
+
+
+
 
 .footer-title {
     font-family: 'Roboto';
@@ -432,7 +459,6 @@ background-color: var(--light-mode-color);
     color: var(--accent-cornflower-color);
     max-width: 264px;
 }
-
 
 
 
