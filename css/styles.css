@@ -74,10 +74,9 @@ cursor: pointer;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-.logo-web {
     color: var(--accent-color);
 }
+
 .logo-studio {
     color: var(--title-text-color);
 } 
@@ -257,7 +256,6 @@ cursor: pointer;
 /* our-team */
 
 .our-employees{
-    padding-top: 120px;
     margin-bottom: 72px ;
 }
 .our-team {
@@ -269,16 +267,12 @@ cursor: pointer;
     flex-basis: calc((100% - 3 * 24px) /4);
 }
 
-
-.container-team{
-    padding-bottom: 120px;
-}
-
-
 .card-description{
     padding: 32px 16px;
 }
 .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
 background: var(--light-mode-color);
 }
 .team-photo {
@@ -383,9 +377,8 @@ border: 1px solid;
 
 .tapes-of-services{
     padding: 32px 16px;
-    border: 1px solid;
-    border-top: none;
     border: 1px solid #E7E9FC;
+    border-top: none;
 
 }
 
@@ -412,43 +405,33 @@ border: 1px solid;
 
 /* page-footer */
 
-.page-footer .logo{
+.logo{
     font-family: 'Raleway';
-    font-weight: 800;
+    font-weight: 800; 
+    font-style: normal;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.conteiner-footer{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    color: var(--accent-color);
 }
 
 .footer-text{
     max-width: 264px;
 }
-
 .page-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: var(--title-text-color);
     font-size: 18px;
 }
-.logo-footer {
-    color: var(--accent-color);
-    margin-bottom: 16px;
-}
+
 
 .color-studio {
     color: var(--light-mode-color);
-    font-size: 18px;
+display: inline-block;
     margin-bottom: 16px;
 }
-
-
-
 
 .footer-title {
     font-family: 'Roboto';
