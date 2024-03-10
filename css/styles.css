@@ -9,7 +9,28 @@
 
   ul, ol {
     list-style: none;
+    padding: 0;
+    margin: 0;
   }
+  .container{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+    .header-container{
+      display: flex;
+      align-items: center;
+    }
+
+    .navigation{
+      display: flex;
+      align-items: center;
+    }
+  
+    .header{
+      border-bottom: 1px solid #e7e9fc;
+    }
   
 .logo{
     color: #4D5AE5;
@@ -19,6 +40,12 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
+}
+
+.nav-list{
+  display: flex;
+  gap: 40px;
 }
 
 .logo-part {
@@ -31,6 +58,8 @@
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.02em;
+   padding: 24px 0;
+   display: block;
 }
 
    .nav-link:hover,
@@ -41,6 +70,12 @@
 
 .address {
     font-style: normal;
+    margin-left: auto;
+}
+
+.address-list{
+  display: flex;
+  gap: 40px;
 }
 
 .contact-link {
