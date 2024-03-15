@@ -186,11 +186,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 24px;
       }
     
       .adventages-item{
       max-width: 264px;
-     
+      width: calc((100% - 24 * 3) / 4);
       }
 
     .subtitle-adventages {
@@ -219,9 +220,10 @@
 }
 
 .list-team{
-        display: flex;
-          align-items: center;
-          justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .title-team {
@@ -239,12 +241,19 @@
 .item-team{
     width: 264px;
     height: 380px;
+    width: calc((100%-24 * 3) / 4);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #FFFFFF;
+  
 }
 
 .team-photo{
   
+  
+}
+
+.team-text{
+   
 }
 
 .subtitle-team {
@@ -259,12 +268,18 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
 
 
 
 
 /* section-portfolio */
+
+.section-portfolio{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .title-portfolio {
     font-weight: 700;
@@ -274,6 +289,20 @@
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-bottom: 72px;
+}
+
+.portfolio-item{
+  width: calc((100%-48 * 2) / 3);
+  }
+
+
+.card-portfolio{
+  background-color: #404BBF;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .subtitle-portfolio {
@@ -292,6 +321,8 @@
 
 /* footer */
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
      background-color: #2e2f42;
 }
 
